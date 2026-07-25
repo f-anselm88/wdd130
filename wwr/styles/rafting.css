@@ -136,7 +136,7 @@ header nav a:hover {
     flex-shrink: 0;
 }
 
-.gallery {
+.adventures {
     display: flex;
     justify-content: space-between;
     gap: 8px;
@@ -145,20 +145,20 @@ header nav a:hover {
     padding: 0;
 }
 
-.gallery figure {
+.adventures figure {
     flex: 1;
     min-width: 140px;
     margin: 0;
     text-align: center;
 }
 
-.gallery img {
+.adventures img {
     width: 100%;
     height: auto;
     border-radius: 4px;
 }
 
-.gallery figcaption {
+.adventures figcaption {
     font-size: 0.85rem;
     margin-top: 4px;
 }
