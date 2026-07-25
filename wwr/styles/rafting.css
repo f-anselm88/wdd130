@@ -137,17 +137,19 @@ header nav a:hover {
 }
 
 .adventures {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 8px;
-    flex-wrap: wrap;
     margin: 16px;
     padding: 0;
 }
 
+.adventures h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 8px;
+}
+
 .adventures figure {
-    flex: 1;
-    min-width: 140px;
     margin: 0;
     text-align: center;
 }
