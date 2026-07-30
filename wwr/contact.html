@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact Kavango Rapids to ask about guided white water rafting trips on Namibia's Kavango River, get a reservation quote, or send a website suggestion.">
+    <meta name="author" content="Anselm Munango">
+    <title>Contact Us | Kavango Rapids</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.jpg" alt="Kavango Rapids logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Kavango Rapids</h1>
+            <p>123 Kavango River Road</p>
+            <p>Divundu, Kavango Region, Namibia</p>
+            <p>+264 81 234 5678</p>
+            <p>info@kavangorapids.com</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="map">
+                <iframe src="https://www.google.com/maps?q=Divundu,Namibia&output=embed"
+                  title="Map showing the location of Kavango Rapids" loading="lazy"
+                  allowfullscreen></iframe>
+            </div>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com"
+                      required>
+                </div>
+
+                <fieldset class="form-group purpose-group">
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general" checked> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here"
+                      required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Portrait of Josephine Kandjimi">
+                <figcaption>Josephine Kandjimi<br><span>Lead River Guide</span></figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Portrait of Simeon Haufiku">
+                <figcaption>Simeon Haufiku<br><span>Safety Officer</span></figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Portrait of Ndapewa Shipanga">
+                <figcaption>Ndapewa Shipanga<br><span>Trip Coordinator</span></figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kavango Rapids | Anselm Munango</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="linkedin"></a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
