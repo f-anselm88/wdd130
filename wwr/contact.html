@@ -36,8 +36,10 @@
 
         <section class="contact-content">
             <div class="map">
-                <iframe src="https://www.google.com/maps?q=Divundu,Namibia&output=embed"
-                  title="Map showing the location of Kavango Rapids" loading="lazy"
+                <iframe
+                  src="https://www.google.com/maps?q=Divundu,Namibia&output=embed"
+                  title="Map showing the location of Kavango Rapids"
+                  loading="lazy"
                   allowfullscreen></iframe>
             </div>
 
@@ -49,24 +51,19 @@
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com"
-                      required>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
                 </div>
 
                 <fieldset class="form-group purpose-group">
                     <legend>Message Purpose</legend>
-                    <label><input type="radio" name="purpose" value="general" checked> General
-                        Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation
-                        Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website
-                        Suggestion</label>
+                    <label for="purpose-general"><input type="radio" id="purpose-general" name="purpose" value="general" checked> General Inquiry</label>
+                    <label for="purpose-reservation"><input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation Question</label>
+                    <label for="purpose-suggestion"><input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
                 </fieldset>
 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Type here"
-                      required></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here" required></textarea>
                 </div>
 
                 <div class="form-group checkbox-group">
